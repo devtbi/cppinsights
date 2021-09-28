@@ -168,7 +168,7 @@ Then in [Cevelop](https://www.cevelop.com) Import -> General -> Existing Project
 Using C++ Insights is fairly simple:
 
 ```
-insights <YOUR_CPP_FILE> -- -std=c++17
+insights <YOUR_CPP_FILE> [-p=<path_to_compile_command_directory>] [--extra-arg -std=c++17]
 ```
 
 Things get complicated when it comes to the system include paths. There are path hard-coded in the binary which seem
